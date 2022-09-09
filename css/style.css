@@ -1,0 +1,66 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+    /*estilos de view responsive mas o menos 500px */
+.flex-container{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.flex-container .picture{
+    overflow: hidden;
+}
+
+.flex-container .picture img{
+    width: 100%;
+}
+.flex-container .button-panel{
+    display: flex;
+}
+.button-panel button{
+    background-color: #FC947D;
+    border-radius: 5px;
+    border-color: #FC8A71;
+    margin: 1px 15px;
+    padding: 5px 35px;
+}
+.button-panel button:hover{
+    background-color: red;
+    border-color: red;
+}
+
+table{
+    margin-left: 20px;
+}
+table, th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: blueviolet;
+    color: white;
+}
+td{
+    background-color: #cb78dda8;
+}
+
+td,th{
+    padding: 4px 10px;
+}
+
+.Bold-text{
+    font-weight: bold;
+}
+.red-text{
+    color: red
+}
+
+
+
+
+@media (min-width: 1200px) {
+    .flex-container{
+        flex-direction: row;
+    }
+}
